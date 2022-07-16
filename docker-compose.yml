@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bot-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    volumes:
+      - ./src:/home/user/bot/src
+    restart: always
+    container_name: bot-docker
+    command: node build/src/index.js
+
