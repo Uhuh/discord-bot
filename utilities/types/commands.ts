@@ -7,8 +7,6 @@ import Bot from '../../src/bot';
 
 export enum Category {
   general = 'general',
-  category = 'category',
-  react = 'react',
 }
 
 export type SlashCommandTypes =

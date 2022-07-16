@@ -43,17 +43,6 @@ export class HelpCommand extends SlashCommand {
         .setPlaceholder('Pick a category')
         .addOptions([
           {
-            label: 'Category commands',
-            description:
-              'Want to categorize your reaction roles? Sort them with categories!',
-            value: `${this.name}_${Category.category}`,
-          },
-          {
-            label: 'Reaction role commands',
-            description: `Manage your servers reaction roles with these commands.`,
-            value: `${this.name}_${Category.react}`,
-          },
-          {
             label: 'General commands',
             description: 'Basic commands everyone can use!',
             value: `${this.name}_${Category.general}`,
