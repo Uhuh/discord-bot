@@ -5,7 +5,7 @@ export const SUPPORT_URL = 'https://discord.gg/SOME_DISCORD_INV';
 export const AVATAR_URL =
   'https://cdn.discordapp.com/avatars/SOME_CLIENT_ID/FILE_HASH.webp?size=2048';
 export const VOTE_URL = `https://top.gg/bot/${CLIENT_ID}/vote`;
-export const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot%20applications.commands&permissions=2416035904`;
+export const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=${CLIENT_ID}&scope=bot%20applications.commands&permissions=2416035904`;
 
 // .env stuff
 export const TOKEN: string = process.env.TOKEN || '';
