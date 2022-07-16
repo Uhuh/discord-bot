@@ -1,11 +1,11 @@
 // Wonderfully hardcoded things.
 export const OWNER_ID = '289151449412141076';
-export const CLIENT_ID = process.env.CLIENT_ID || '853822750191386624';
-export const SUPPORT_URL = 'https://discord.gg/HVrRC8T7u9';
+export const CLIENT_ID = process.env.CLIENT_ID || 'SOME_CLIENT_ID';
+export const SUPPORT_URL = 'https://discord.gg/SOME_DISCORD_INV';
 export const AVATAR_URL =
-  'https://cdn.discordapp.com/avatars/493668628361904139/712f1bc1af7f54da4693f0c361444244.webp?size=2048';
+  'https://cdn.discordapp.com/avatars/SOME_CLIENT_ID/FILE_HASH.webp?size=2048';
 export const VOTE_URL = `https://top.gg/bot/${CLIENT_ID}/vote`;
-export const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=853822750191386624&scope=bot%20applications.commands&permissions=2416035904`;
+export const INVITE_URL = `https://discord.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot%20applications.commands&permissions=2416035904`;
 
 // .env stuff
 export const TOKEN: string = process.env.TOKEN || '';
